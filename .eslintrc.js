@@ -7,7 +7,7 @@ module.exports = {
   extends: [
     'plugin:vue/vue3-recommended',
     'airbnb-base',
-    // 'prettier',
+    'prettier',
     'plugin:prettier/recommended',
   ],
   parser: 'vue-eslint-parser',
@@ -18,6 +18,8 @@ module.exports = {
   },
   plugins: ['vue', '@typescript-eslint'],
   rules: {
+    'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
+
     // 'vue/script-setup-uses-vars': 'error',
     // 'no-use-before-define': 'off',
     // '@typescript-eslint/no-use-before-define': 'off',
