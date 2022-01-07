@@ -6,3 +6,4 @@ dist-ssr
 
 .eslintcache
 .husky
+vue3.code-workspace
