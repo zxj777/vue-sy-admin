@@ -22,9 +22,11 @@
   },
   "dependencies": {
     "ant-design-vue": "2.2.8",
+    "pinia": "^2.0.9",
     "vue": "^3.2.16"
   },
   "devDependencies": {
+    "@types/node": "^17.0.8",
     "@typescript-eslint/eslint-plugin": "^5.4.0",
     "@typescript-eslint/parser": "^5.4.0",
     "@vitejs/plugin-vue": "^1.9.3",

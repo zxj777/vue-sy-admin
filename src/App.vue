@@ -3,13 +3,15 @@
 // Check out https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup
 import { ConfigProvider } from 'ant-design-vue'
 import { AppProvider } from '@/components/Application'
-import HelloWorld from './components/HelloWorld.vue'
+import HelloWorld from '@/components/HelloWorld.vue'
 </script>
 
 <template>
   <ConfigProvider>
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" />
+    <AppProvider>
+      <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" />
+      <img alt="Vue logo" src="./assets/logo.png" />
+    </AppProvider>
   </ConfigProvider>
 </template>
 
